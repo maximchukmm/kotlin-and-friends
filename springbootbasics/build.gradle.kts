@@ -8,11 +8,12 @@ plugins {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
-    runtimeOnly("com.h2database:h2")
     }
+    runtimeOnly("com.h2database:h2")
 }
 
 tasks.withType<Test> {
