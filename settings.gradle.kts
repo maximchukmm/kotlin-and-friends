@@ -1,2 +1,2 @@
 rootProject.name = "kotlin-and-friends"
-include("kotlinlang", "springbootbasics")
+include("kotlinlang", "springbootbasics", "hibernate")
