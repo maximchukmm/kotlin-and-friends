@@ -23,6 +23,7 @@ dependencies {
 
     testImplementation(kotlin("test"))
     testImplementation(kotlin("test-junit"))
+    testImplementation("org.hamcrest:hamcrest-all:1.3")
 
     testImplementation("com.h2database:h2:1.4.200")
 }

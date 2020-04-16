@@ -15,7 +15,7 @@ class HelloTest : HibernateBaseTest() {
     override fun entities(): Array<Class<*>> = arrayOf(Hello::class.java)
 
     @Test
-    fun `hello Hibernate!`() {
+    fun `hello, Hibernate!`() {
         val greetings = "Hello, Hibernate!"
 
         doInTransaction { session ->
