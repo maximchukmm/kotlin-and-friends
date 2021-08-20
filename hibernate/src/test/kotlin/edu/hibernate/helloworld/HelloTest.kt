@@ -39,7 +39,7 @@ class HelloTest : HibernateBaseTest() {
 
     @Entity(name = "Hello")
     @Table(name = "hello")
-    private class Hello(
+    private data class Hello(
             @Id
             @GeneratedValue(strategy = GenerationType.AUTO)
             var id: Long?,

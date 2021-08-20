@@ -1,4 +1,4 @@
-package edu.springbootbasics.model
+package edu.springbootbasics.author
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service

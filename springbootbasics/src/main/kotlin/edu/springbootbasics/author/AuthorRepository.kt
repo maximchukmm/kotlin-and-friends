@@ -1,4 +1,4 @@
-package edu.springbootbasics.model
+package edu.springbootbasics.author
 
 import org.springframework.data.repository.CrudRepository
 

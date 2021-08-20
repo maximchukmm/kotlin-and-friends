@@ -9,4 +9,8 @@ class HelloWorldTest {
     fun helloWorldTest() {
         assertEquals("Hello, world!", HelloWorld().sayHello())
     }
+
+    private class HelloWorld {
+        fun sayHello() = "Hello, world!"
+    }
 }
