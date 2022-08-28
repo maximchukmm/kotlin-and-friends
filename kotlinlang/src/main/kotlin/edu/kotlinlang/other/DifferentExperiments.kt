@@ -15,4 +15,7 @@ fun main() {
 //    }
 
 //    for (i in 1..100) println(UUID.randomUUID())
+
+//    val list = ArrayList<Int>(10)
+//    println(list[0])
 }
